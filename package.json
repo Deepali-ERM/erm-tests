@@ -1,0 +1,14 @@
+{
+  "name": "erm-tests",
+  "version": "0.1.0",
+  "description": "Acceptance tests for ERM",
+  "dependencies": {
+    "child-process-promise": "^1.1.0",
+    "intern": "^3.0.6",
+    "lodash": "^3.10.1",
+    "chalk": "^1.1.1"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/intern-runner config=config"
+  }
+}
