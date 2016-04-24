@@ -18,7 +18,8 @@ define({
 
     // Functional test suite(s) to execute against each browser once non-functional tests are completed
     functionalSuites: [
-        'suites/login/user-submits-credentials.js'
+        'suites/login/user-submits-credentials.js',
+        //'suites/registration/user-signs-up.js'
     ],
 
     defaultTimeout: 60000,
